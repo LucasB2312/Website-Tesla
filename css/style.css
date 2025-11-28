@@ -2,6 +2,13 @@ body {
     font-family: "Orbitron", sans-serif;
 }
 
+h3 {
+    font-size: 14px;
+    color: #9a9999;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
 .main-header {
     background-color: #212121;
     color: #9a9999;
@@ -97,4 +104,48 @@ body {
 
 .text-hero {
     width: 50%;
+}
+
+.grid-cars {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.grid-cars article img {
+    max-width: 100%;
+}
+
+h2.car-model {
+    font-size: 14 px;
+    color: #212121;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.link a {
+    color: #9a9999;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.link a:hover {
+    color: #212121;
+    
+    
+}
+
+.main-grid {
+    padding: 60px 0;
 }
