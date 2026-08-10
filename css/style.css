@@ -55,6 +55,7 @@ body{
     font-size: 14px;
     color: #fff;
     line-height: 2;
+    margin: 25px 0;
 }
 
 .hero .container-flex{
@@ -80,9 +81,14 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     padding: 20px 120px;
+    border-radius: 2px;
+    white-space: nowrap;
 }
 
-.btn-primary:hover{
+.active{
     border-top: 3px solid #9A9999;
-    transition: all 0.3s;
+}
+
+.text-hero{
+    width: 500px;
 }
